@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiwi | Pasteleria </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./assets/logo_nombre.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <span>
+            <img src="./assets/logo.png" alt="">
+            <h1>Kiwi Pasteleria</h1>
+        </span>
+
+        <span>
+            <a href="#menu-pasteles">Menú</a>
+            <a href="#ordenar">Ordenar</a>
+            <a href="./pastelero.html">Pastelero</a>
+        </span>
+    </header>
+    <section id="banner">
+        <img src="./assets/pasteles.jpg" alt="">
+        <div>
+            Personaliza tu pastel en <p>Kiwi</p>
+        </div>
+    </section>
+    <section id="menu-pasteles">
+        <div>
+            <h2>Menu de pasteles</h2>
+        </div>
+        <div id="pasteles">
+            <div class="tarjeta">
+                <p>Pastel de zanahoria</p>
+                <p>$350.00</p>
+            </div>
+            <div class="tarjeta">
+                <p>Pastel de tres leches</p>
+                <p>$350.00</p>
+            </div>
+            <div class="tarjeta">
+                <p>Pay de queso</p>
+                <p>$350.00</p>
+            </div>
+            <div class="tarjeta">
+                <p>Pastel de chocolate</p>
+                <p>$350.00</p>
+            </div>
+            <div class="tarjeta">
+                <p>Pastel de vainilla</p>
+                <p>$350.00</p>
+            </div>
+            <div class="tarjeta">
+                <p>Pastel de Fresa</p>
+                <p>$350.00</p>
+            </div>
+        </div>
+    </section>
+    <section id="menu-pasteles">
+        <div>
+            <h2>Menu de adornos</h2>
+        </div>
+        <div id="pasteles">
+            <div class="tarjeta">
+                <p>Velas</p>
+                <p>$50.00</p>
+            </div>
+            <div class="tarjeta">
+                <p>Fondant</p>
+                <p>$70.00</p>
+            </div>
+            <div class="tarjeta">
+                <p>Estrellas</p>
+                <p>$50.00</p>
+            </div>
+            <div class="tarjeta">
+                <p>Chocolates</p>
+                <p>$50.00</p>
+            </div>
+            <div class="tarjeta">
+                <p>Brillos</p>
+                <p>$50.00</p>
+            </div>
+            <div class="tarjeta">
+                <p>Mensaje</p>
+                <p>$50.00</p>
+            </div>
+        </div>
+    </section>
+    <section id="ordenar">
+        <div>
+            <h2>Haz tu pedido</h2>
+        </div>
+        <form action="">
+            <div id="datos-personales">
+
+                <div>
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre">
+                </div>
+                
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="text" id="telefono">
+                </div>
+                    
+                <div>
+                    <label for="correo">Correo electronico</label>
+                    <input type="text" id="correo">
+                </div>
+            </div>
+            <div class="seleccionar">
+                <h3>Selecciona el pastel</h3>
+                <div>
+                    <label><input type="checkbox" value="Zanahoria"> Zanahoria</label><br>
+                    <label><input type="checkbox" value="Chocolate"> Chocolate</label><br>
+                    <label><input type="checkbox" value="Vainilla"> Vainilla</label><br>
+                    <label><input type="checkbox" value="TresLeches"> Tres leches</label><br>
+                    <label><input type="checkbox" value="Fresa"> Fresa </label><br>
+                    <label><input type="checkbox" value="PayDeQueso"> Pay de queso</label><br>
+                </div>
+            </div>
+            <div class="seleccionar">
+                <h3>Selecciona los adornos</h3>
+                <div>
+                    <label><input type="checkbox" value="Velas"> Velas</label><br>
+                    <label><input type="checkbox" value="Fondant"> Fondant</label><br>
+                    <label><input type="checkbox" value="Estrellas"> Estrellas</label><br>
+                    <label><input type="checkbox" value="Chocolates"> Chocolates</label><br>
+                    <label><input type="checkbox" value="Brillos"> Brillos</label><br>
+                    <label><input type="checkbox" value="Mensaje"> Mensaje</label><br>
+                </div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <h2>Contactanos</h2>
+        <div>
+            <p><span><i class="fa-solid fa-phone"></i></span>(55) 656 78 20</p>
+            <p><span><i class="fa-solid fa-envelope"></i></span>info@kiwipasteria.com</p>
+            <p><span><i class="fa-brands fa-facebook-f"></i></span>Kiwi Pasteleria</p>
+            <p><span><i class="fa-brands fa-instagram"></i></span>@kiwi_pasteleria_mx</p>
+        </div>
+    </footer>
+</body>
+</html>

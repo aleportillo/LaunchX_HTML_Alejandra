@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    background: black;
+}
+
+header{
+    display: flex;
+    background: black;
+    color: #E5B5C7;
+    width: 100%;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 100;
+    padding: .5rem 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 .5rem .5rem;
+    align-items: center;
+    height: 4rem;
+    font-size: .8rem;
+}
+
+header span:first-child{
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    width: 5rem;
+    margin-right: .5rem;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+header a:hover{
+    color: #3bccae;
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+    background-color: #641870;
+}
+
+#banner img {
+    width: 50%;
+}
+
+#banner div {
+    width: 50%;
+    font-size: 5rem;
+    padding: 0 1.6rem;
+}
+
+#banner p{
+    color: white;
+}
+
+#menu-pasteles{
+    background-color: black;
+    color: white;
+    height: 27rem;
+    padding: 0 1rem;
+}
+
+#menu-pasteles h2{
+    text-align: center;
+    padding: 2rem;
+}
+
+#menu-pasteles #pasteles{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30%);
+    gap: 5%;
+}
+
+.tarjeta{
+    background-color: #b5e2a6;
+    border-radius: .5rem;
+    padding: 3rem 1rem 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    height: 5rem;
+}
+
+.tarjeta p:first-child{
+    color: #641870;
+    font-weight: bold;
+}
+
+.tarjeta:hover{
+    background-color: #e5b5c7;
+}
+
+#ordenar{
+    color: white;
+    padding-top: 1rem;
+}
+
+#ordenar div h2 {
+    position: absolute;
+    left: 45%;
+    background-color: black;
+    padding: 0 1rem;
+    color: #641870;
+    font-weight: bolder;
+}
+
+#ordenar form{
+    border: 5px solid #641870;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+
+#ordenar #datos-personales{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    color:#3bccae;
+}
+
+#ordenar #datos-personales input{
+    border-radius: .4rem;
+    border: 2px solid #641870;
+    padding: .5rem;
+    background: #e6cfea;
+}
+
+.seleccionar{
+    width: 20%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 1.5rem;
+}
+
+button{
+    clear: both;
+    margin: 1rem 46%;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #b5e2a6;
+    color: white;
+}
+
+button:hover {
+    background-color: #641870;
+}
+
+footer{
+    background: #E5B5C7;
+    height: 5rem;
+    padding: 1rem;
+}
+
+footer h2{
+    margin: .5rem auto 1rem;
+    width: 20%;
+    text-align: center;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer i{
+    margin-right: 1rem;
+}
+
+footer p:hover{
+    color: #b5e2a6;
+}
+
+#inventario {
+    display: flex;
+    justify-content: space-around;
+}
+
+#inventario .tarjeta{
+    margin-bottom: 1rem;
+    width: 20rem;
+}
+
+#inventario h2, #pedidos h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+table {
+    color: white;
+    width: 100%;
+    border: 1px solid white;
+    margin: 1rem 0;
+}
+
+table th{
+    color: #e5b5c7;
+}
+
+table th, table td{
+    text-align: start;
+    width: 25%;
+    border: 1px solid white;
+    padding: 1rem;
+}
